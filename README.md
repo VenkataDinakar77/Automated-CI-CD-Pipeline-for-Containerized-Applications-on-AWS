@@ -1,7 +1,7 @@
 
 # Automated CI/CD Pipeline for Containerized Applications on AWS
 
-A production-ready, automated deployment pipeline, that ensures faster releases, consistent environments, and reduced manual errors. 
+A production-ready, automated deployment pipeline that ensures faster releases, consistent environments, and reduced manual errors. 
 
 ## Overview
 * **FreshEats**, a growing food delivery startup, relied on manual application builds, server updates, and deployments, resulting in inconsistent environments and deployment downtime.
@@ -43,16 +43,16 @@ This project demonstrates automation of containerized application deployment on 
 
 ## Architectural Diagram
 
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![Screenshot](https://github.com/VenkataDinakar77/Automated-CI-CD-Pipeline-for-Containerized-Applications-on-AWS/blob/c6625aaabea027516ed0687dad1ab30066fb7d0a/CI%3ACD%20Architecture.png)
 
 
 ## Project Workflow
 
 **1. Application Development & Code Push**
-- The application code and Docker configuration are maintained in a **GitHub repository**. When an approved code change is pushed to the main branch, the CI/CD workflow is automatically triggered.
+- The application code and Docker configuration are maintained in a **GitHub repository**. When an approved code change is pushed to the main branch, the CI/CD workflow triggers automatically.
 
 **2. CI/CD Pipeline Trigger**
-- **GitHub Actions** starts the automated deployment workflow. The pipeline checks out the latest application code and prepares the environment for the build and deployment process.
+- **GitHub Actions** starts the automated deployment workflow. The pipeline checks out the latest application code and prepares the environment for building and deploying.
 
 **3. Build the Docker Image**
 - The pipeline uses **Docker** to package the application and its dependencies into a container image, providing a consistent runtime environment across deployments.
@@ -108,6 +108,5 @@ Supporting services:
 
 - [@LinkedIn](https://www.linkedin.com/in/venkata-dinakar77)
 - [@GithHub](https://github.com/VenkataDinakar77?tab=repositories)
-- Email Id: dinakar.kunduru0414@gmail.com
+- Email ID: dinakar.kunduru0414@gmail.com
 
-# Automated-CI-CD-Pipeline-for-Containerized-Applications-on-AWS
